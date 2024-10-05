@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Detail</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+</head>
+<style>
+     .con{
+    background-image: linear-gradient(to right,  #e7d6fa , rgba(255, 255, 255, 0));
+
+}
+.ulnav{
+    position: relative;
+    left: 20%;
+    
+}
+.nav-link{
+    color: black;
+    text-decoration: none;
+    
+}
+.dropdown-menu:hover{
+    border: 1px solid white;
+box-shadow: 2px 2px 19px 2px rgb(182, 159, 159);
+
+}
+.di:hover{
+background-color:  #d4aeff;
+color: white;
+}
+.nav-link:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.callbutn{
+background-color: black;
+color: white;
+font-family: "Catamaran", sans-serif;
+}
+.callbutn:hover{
+    background-color: black;
+    color: white;
+    font-family: "Catamaran", sans-serif;
+    box-shadow: 5px 5px 5px #fede65;
+}
+
+
+
+
+
+/* banner section  */
+
+
+
+.bntxt{
+    /* position: relative; */
+    /* left: 35%; */
+    text-align: center;
+}
+
+
+
+
+/* section 1 */
+
+
+
+
+.fontres{
+
+text-align: center;
+}
+
+
+.blgimg:hover{
+transform: scale(1.03);
+}
+.listblog{
+    list-style: none;
+}
+
+
+
+
+/* section 2 */
+
+
+
+.teamse2{
+    background-image: linear-gradient(to right,  #e7d6fa , rgba(255, 255, 255, 0));
+}
+
+.teamse2c2{
+    background-image: linear-gradient(to right,  rgba(255, 255, 255, 0) , #d6ecfa);
+
+}
+
+
+
+
+
+       /* footer  */
+       .input-group-text{
+            background-color: #0e1124;
+            color: white;
+        }
+        .ft{
+            background-color: #d4aeff;
+        }
+        .ftr-list-item{
+            list-style: none;
+            display: inline-block;
+        }
+        .ftrin{
+            /* position: absolute; */
+            position: relative;
+            left: 30%;
+            top: -40%;
+        }
+.ftr{
+    background-color:  #0e1124;
+    color: white;
+}
+.ftricon{
+    display: inline-block;
+    list-style: none;
+    
+
+
+}
+
+
+.lis{
+    font-size: small;
+    color: rgb(229, 229, 229);
+    list-style: none;
+    text-decoration: none;
+
+}
+.li{
+    text-decoration: none;
+    color: rgb(206, 206, 206);
+
+}
+.li:hover{
+    color: white;
+    text-decoration: none;
+
+}
+.cprht{
+    
+    text-align: center;
+}
+
+</style>
+<body>
+    <div class="container-fluid con">
+        <!-- nav bar -->
+        <nav class="navbar navbar-expand-lg px-5  bnav">
+            <img  src="https://html.fleexstudio.com/consultore/assets/img/logo/header-logo.png" alt="">
+            <a class="navbar-brand" href="#"></a>
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                       <span class="navbar-toggler-icon bg-light text-white-50"></span>
+                                    </button>
+                                  
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                      <ul class="navbar-nav mr-auto   ulnav">
+                                        <li class="nav-item ml-2">
+                                          <a class="nav-link " href="./index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item ml-2">
+                                          <a class="nav-link" href="./contectus.html">About us</a>
+                                        </li>
+                                        <li class="nav-item ml-2">
+                                          <a class="nav-link " href="./service.html" >
+                                            Our services
+                                          </a>
+                                           
+                                        </li>
+                                      
+                                        <li class="nav-item dropdown ml-2">
+                                            <a class="nav-link " href="./ourblog2.html" >
+                                              Our Blogs
+                                            </a>
+                                             
+                                          </li>
+        
+                                          <li class="nav-item dropdown ml-2">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                              Pages
+                                            </a>
+                                            <div class="dropdown-menu p-2">
+                                              <a class="dropdown-item di" href="./pricingplan.html">Pricing Page</a>
+                                              <a class="dropdown-item di" href="./contectus.html">Contect us </a>  
+                                              <a class="dropdown-item di" href="./ourteam.html">Our Team</a>  
+                                              <a class="dropdown-item di" href="./shop.html">Shop</a>  
+                                              <a class="dropdown-item di" href="./faq.html">Our Faq</a>  
+                                              <a class="dropdown-item di" href="./error404.html">Erorr 404</a>
+                                             
+                                          </li>
+                                      </ul>
+                                      
+                                        <button class="btn  my-2 my-sm-0 callbutn" ><img src="https://html.fleexstudio.com/consultore/assets/img/icons/phone.svg" alt=""><a href="telto:+923130401899" class="callno" style="color: white; text-decoration: none; hover{text-decoration: none;color: white;}">658-593-8295</a></button>
+                                      </form>
+                                    </div>
+</nav>
+        <!-- banner section  -->
+        <div class="container-fluid p-5 ">
+           <div class="bntxt">
+               <h1 class="ml-5">Blog Details</h1>
+               <p class="ml-5">Our World Class Services</p>
+           </div>
+          
+        </div>
+</div>
+
+<!-- section 1 -->
+<div class="container-fluid">
+    <!-- <div class="row  p-5">
+        <div data-aos="fade-up">
+            <p class="sec6p" > <span style="background-color: #d4aeff; font-size: x-large; ">Blog</span></p>
+            <h1 class="sec6t mt-3">Our Firm Offers <br> <span style="background-color: #fede65;">Constore changing federal</span> <br>tax regulations
+                Consultant.</h1>
+    
+        </div>
+    
+    
+    </div> -->
+    <div class="row fontres   p-4">
+        <div class="col-12  w-100    fontres">
+                <p class="fontres " > <span style="background-color: #d4aeff; font-size: x-large; ">Blog</span></p>
+                <h1 class="fontres mt-3">Our Firm Offers <span style="background-color:#981c1e; color: white;">Constore changing federal </span> <br>tax regulations
+                    Consultant. </h1>
+           
+        </div>
+        
+    
+    
+    
+    </div>
+
+   <div class="row p-5">
+    <div class="col p-5">
+
+        <img  class="w-100 blgimg" src="https://html.fleexstudio.com/consultore/assets/img/image/blog-img-5.png" alt="">
+    </div>
+    <div class="col">
+        <ul>
+            <li class="listblog"> <span style="background-color: #fede65; "><b>Preparing and Filing Tax Returns:</b></span> Tax advisors collect information from clients, such as income and expenses, to calculate taxes owed. <br>
+                 Once computed, the tax consultant files a return with the appropriate regulatory body.
+            </li> <hr>
+            <li class="listblog"> <span style="background-color: #fede65; "><b>Representing Clients in Audits:</b></span>Tax consultants represent clients during audits to ensure the tax return is accurate to minimize tax payments. <br>
+                By guiding the process, they can reduce the time and money invested by the organization, along with the overall tax liability.
+           </li> <hr>
+           <li class="listblog"> <span style="background-color: #fede65; "><b>Researching Tax Laws: </b></span> To ensure clients comply with the latest regulations, tax consultants may read tax law journals, attend seminars, 
+             and network with other tax professionals. Research skills benefit organizations by ensuring that clients follow the law and pay the correct amount of taxes.
+       </li> <hr>
+       <li class="listblog"> <span style="background-color: #fede65; "><b>Providing Tax Advice:</b></span> These accounting specialists advise clients on how to minimize tax liability. This guidance may cover available deductions or types of income to report.
+   </li> <hr>
+   <li class="listblog"> <span style="background-color: #fede65; "><b>Assisting Clients with Tax Planning:</b></span> A tax consultant may develop and recommend strategies to reduce taxable income, take advantage of tax breaks, or defer taxes to a later date.
+
+          
+
+           
+
+         
+        </ul>
+    </div>
+   </div> 
+</div>
+
+
+<!-- section 2 -->
+<div class="container-fluid">
+    <div class="row  teamse2  mt-5">
+       
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12  w-100">
+            <img  src="https://html.fleexstudio.com/consultore/assets/img/image/our-team-img-7.png" class="align-self-center mr-3" alt="...">
+        </div>
+
+
+            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 mt-5">
+              <h4 class="mt-0">Tim Runte </h4>
+              <p>Tax Specialist</p>
+              <p class="mb-0"> Tim Runte is a certified public accountant (Arizona), chartered retirement planning counselor, and certified tax coach. <br>
+                 She received his degree in accounting from the University of Nevada, Las Vegas, has worked as an auditor for Deloitte & Touche LLP, <br>
+                  and taken managerial accounting roles in many small businesses.</p>
+            </div>
+          
+    </div>
+
+    <div class="row  teamse2  mt-5">
+       
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12  w-100">
+            <img  src="https://html.fleexstudio.com/consultore/assets/img/image/our-team-img-8.png" class="align-self-center mr-3" alt="...">
+        </div>
+
+
+            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 mt-5">
+              <h4 class="mt-0">Tim Runte </h4>
+              <p>Tax Specialist</p>
+              <p class="mb-0"> Tim Runte is a certified public accountant (Arizona), chartered retirement planning counselor, and certified tax coach. <br>
+                 She received his degree in accounting from the University of Nevada, Las Vegas, has worked as an auditor for Deloitte & Touche LLP, <br>
+                  and taken managerial accounting roles in many small businesses.</p>
+            </div>
+          
+    </div>
+
+    <div class="row  teamse2  mt-5">
+       
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12  w-100">
+            <img  src="https://html.fleexstudio.com/consultore/assets/img/image/our-team-img-10.png" class="align-self-center mr-3" alt="...">
+        </div>
+
+
+            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 mt-5">
+              <h4 class="mt-0">Tim Runte </h4>
+              <p>Tax Specialist</p>
+              <p class="mb-0"> Tim Runte is a certified public accountant (Arizona), chartered retirement planning counselor, and certified tax coach. <br>
+                 She received his degree in accounting from the University of Nevada, Las Vegas, has worked as an auditor for Deloitte & Touche LLP, <br>
+                  and taken managerial accounting roles in many small businesses.</p>
+            </div>
+          
+    </div>
+
+    <div class="row  teamse2  mt-5">
+       
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12  w-100">
+            <img  src="https://html.fleexstudio.com/consultore/assets/img/image/our-team-img-11.png" class="align-self-center mr-3" alt="...">
+        </div>
+
+
+            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 mt-5">
+              <h4 class="mt-0">Tim Runte </h4>
+              <p>Tax Specialist</p>
+              <p class="mb-0"> Tim Runte is a certified public accountant (Arizona), chartered retirement planning counselor, and certified tax coach. <br>
+                 She received his degree in accounting from the University of Nevada, Las Vegas, has worked as an auditor for Deloitte & Touche LLP, <br>
+                  and taken managerial accounting roles in many small businesses.</p>
+            </div>
+          
+    </div>
+
+
+
+  
+    
+</div>
+
+<!-- footer  -->
+<div class="container-fluid border p-5 ft">
+    <div class="row"> 
+     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-6 ">
+         <ul >
+             <li class="ftr-list-item mt-3"> <h2>Ready to Take Plan ? It’s Just a Matter <br> Of Cilke.</h2>
+                 <p>Try it Risk Free we Don’t Charge Cancellation Fees.</p></li>
+             <li class="ftr-list-item ftrin ml-5 mt-0 ">
+                 <div class="input-group w-100 h-100">
+                 <input type="email" class="form-control bg-light p-2"  placeholder="Email Adress">
+                 <div class="input-group-append">
+                   <span class="input-group-text">Subcribe</span>
+                  
+                 </div>
+               </div>
+             </li>
+         </ul>
+     </div>
+     </div>
+    
+     
+  </div>
+  
+  <div class="container-fluid ftr">
+     
+         <div class="row p-4">
+             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12  py-5 ">
+                 <img src="https://html.fleexstudio.com/consultore/assets/img/logo/footer-logo.png" alt="">
+     <p class="mt-3"> Working with a life coach is like hanging out<br>
+         with a really honest friend who believes in <br>
+         your dreams, always wants the best.</p>
+         <ul > 
+             <li class="ftricon "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                 <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+               </svg></li>
+             <li class="ftricon ml-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                 <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+               </svg></li>
+             <li class="ftricon ml-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                 <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+               </svg></li>
+           </ul>
+  
+  
+             </div>
+             <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12  py-5">
+                 <ul>
+                     <li class="lis" style="font-weight: bold;font-size: large; color:white;text-decoration: none; ">Main Pages</li>
+                     <li class="lis mt-4" ><a class="li" href="">Home 1</a></li>
+                     <li class="lis mt-4"><a class="li" href="">Home 2</a></li>
+                     <li class="lis mt-4"><a class="li" href="">Home 3</a></li>
+                     <li class="lis mt-4"><a class="li" href="">About Us</a></li>
+                     <li class="lis mt-4"><a class="li" href="">Case Study</a></li>
+                     <li class="lis mt-4"><a class="li" href="">Pricing PLan</a></li>
+  
+                 </ul>
+             </div>
+             <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 py-5">
+                 <ul>
+                     <li class="lis" style="font-weight: bold;font-size: large; color:white;text-decoration: none; ">Other Pages</li>
+                     <li class="lis mt-4" ><a class="li" href="">Blog Grid 3</a></li>
+                     <li class="lis mt-4"><a class="li" href="">Blog Grid 2</a></li>
+                     <li class="lis mt-4"><a class="li" href="">Blog Details</a></li>
+                     <li class="lis mt-4"><a class="li" href="">Team</a></li>
+                     <li class="lis mt-4"><a class="li" href="">Shop</a></li>
+                     <li class="lis mt-4"><a class="li" href="">Contact</a></li>
+  
+                 </ul>
+             </div>
+             <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 py-5">
+                 <ul>
+                     <li class="lis" style="font-weight: bold;font-size: large; color:white;text-decoration: none; ">Company</li>
+                     <li class="lis mt-4" ><a class="li" href="">Help Center</a></li>
+                     <li class="lis mt-4"><a class="li" href="">License</a></li>
+                     <li class="lis mt-4"><a class="li" href="">Changelog</a></li>
+                     <li class="lis mt-4"><a class="li" href="">Term & Condition</a></li>
+                     <li class="lis mt-4"><a class="li" href="">404</a></li>
+                     <li class="lis mt-4"><a class="li" href="">Integration</a></li>
+  
+                 </ul>
+             </div>
+             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12  py-5">
+                 <ul>
+                     <li class="lis" style="font-weight: bold;font-size: large; color:white;text-decoration: none; ">Contact Us</li>
+                     <li class="lis mt-4" ><p><img  class="ml-0" src="https://html.fleexstudio.com/consultore/assets/img/icons/footer-icon-1.svg" alt=""><span class="ml-3">FleexStudio New York <br>831 SW 149th Street, Burien.</span> </p></li>
+                     <li class="lis mt-4 " ><p ><img class="ml-0" src="https://html.fleexstudio.com/consultore/assets/img/icons/phone.svg" alt=""><span class="ml-3">496-525-9376</span></p></li>
+  
+                     <li class="lis mt-4" ><p class="ml-0"><img src="https://html.fleexstudio.com/consultore/assets/img/icons/footer-icon-3.svg" alt=""><span class="ml-3">coaching@gmail.com</span></p></li>
+                 </ul>   
+             </div>
+         </div>
+         <hr>
+         <div class="row p-5  border-top  border-light">
+             <div class="col  cprht  ">© Copyright 2022 MIAN SHABAN All rights reserved.</div>
+         </div>
+     
+     
+  </div>
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+
+</html>
